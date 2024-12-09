@@ -1,0 +1,146 @@
+* body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d
+}
+
+
+nav {
+    font-family:Raleway;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 1rem;
+  
+  }
+  
+  nav h1 a {
+    
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+    
+   
+   
+  }
+  .logo {
+    width: 49%;
+  }
+ 
+  
+  
+  nav a {
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+    
+  }
+  
+  nav a:hover {
+    color: #ff7300;
+  }
+
+  .list {
+    font-family:Raleway;
+font-size: 1.5rem;
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+
+align-items: center;
+
+}
+
+  .title{
+    font-family:Raleway;
+color: white;
+display: flex;
+justify-content: center;
+font-size: 2rem;
+font-weight: 500;
+  }
+  
+    .cards {
+      display: flex;
+    gap: 4rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .caption {
+      color: white;
+      font-family: Raleway;
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+      font-weight: 600;
+      font-size: 4rem;
+      color: red;
+    }
+    .cap2 {
+      font-family: Raleway;
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      padding-top: 7rem;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+    .line {
+      text-decoration: none;
+    }
+    
+
+  
+  
+  
+
+  
+  @media (max-width:375px) {
+    .logo {
+  width: 101%;
+  
+  
+  
+    }
+    nav ul {
+      font-size: 1.2rem;
+    }
+    }
+    @media (max-width:414px) {
+      .logo {
+    width: 101%;
+    
+    
+      }
+      nav ul {
+        font-size: 1.2rem;
+      }
+      }
+      @media (max-width:430px) {
+        .logo {
+      width: 101%;
+      
+      
+        }
+        nav ul {
+          font-size: 1.2rem;
+        }
+
+        
+        }
+        @media (max-width: 430px) {
+          .caption {
+            font-size: 1.8rem;
+          }
+        }
